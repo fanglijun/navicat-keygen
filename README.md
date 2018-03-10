@@ -204,9 +204,13 @@
 ## 【注意事项】
 
   0. 注意下载的破解程序语言版本与Navicat语言版本一致
+  
   1. 安装vcredis: http://download.microsoft.com/download/1/8/0/180fa2ce-506d-4032-aad1-9d7636f85179/vcredist_x64.exe
+  
   2. 执行navicat-patch.exe 和 navicat-keygen.exe必须在cmd.exe里面执行，git bash里不行
+  
   3. cmd.exe 必须以管理员身份运行
+  
   
 windows上报错“Unknown error. CODE: 0x00000005.”是表示没有权限
 
