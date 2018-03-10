@@ -166,6 +166,8 @@
   5. Input __Activation Code__, then offline activation is done.
 
 ## 4. How to use
+  0. 【注意事项在最后】
+
   1. Build patcher and keygen.
 
   2. Replace __Navicat Activation Public Key__ in `navicat.exe`.  
@@ -198,3 +200,13 @@
   6. Copy your request code and paste it in keygen. Input empty line to tell keygen that your input ends.
 
   7. Then you will get activation code which looks like a Base64 string. Just copy it and paste it in Navicat `Manual Activation` window, then click Activate. If nothing is wrong, activation should be done successfully.
+
+## 【注意事项】
+
+  0. 注意下载的破解程序语言版本与Navicat语言版本一致
+  1. 安装vcredis: http://download.microsoft.com/download/1/8/0/180fa2ce-506d-4032-aad1-9d7636f85179/vcredist_x64.exe
+  2. 执行navicat-patch.exe 和 navicat-keygen.exe必须在cmd.exe里面执行，git bash里不行
+  3. cmd.exe 必须以管理员身份运行
+  
+windows上报错“Unknown error. CODE: 0x00000005.”是表示没有权限
+
